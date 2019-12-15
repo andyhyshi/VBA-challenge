@@ -84,7 +84,7 @@ Sub Totstock()
 
       
      Else
-        'Calculates Total Volume for Each Ticker If Tickers are same
+        'Adds to Total Volume for Each Ticker If Tickers are same
          totv = totv + ws.Cells(i, 7).Value
          
      End If
